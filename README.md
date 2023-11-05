@@ -32,7 +32,7 @@ Automatically re-attaching the debugger on app reload is a work in progress.
 
 4. (debugging) Delve will now stop at breakpoints.
 
-    NOTE: You can try it by setting a breakpoint in the `main()` function in `handlers/health.go` and running a `curl` command to the `/health` endpoint of the app.
+    NOTE: You can try it by setting a breakpoint in the `GetHealth()` function in `handlers/health.go` and running a `curl` command to the `/health` endpoint of the app.
     ```bash
     curl localhost:8000/health
     ```
