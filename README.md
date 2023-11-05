@@ -24,7 +24,7 @@ Automatically re-attaching the debugger on app reload is a work in progress.
     ```bash
     air
     ```
-    This will run both `air` and attach a `dlv` debugger to the app for later attachment.
+    NOTE: This will run both `air` and a `dlv` debugger to the app for later attachment, based on the `.air.toml` config.
 
 2. Update the code as needed and it will hot-reload.
     
