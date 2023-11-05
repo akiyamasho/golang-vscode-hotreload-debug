@@ -18,6 +18,7 @@ Automatically re-attaching the debugger on app reload is a work in progress.
     ```
 
 ### Deployment
+![golang-debug-hotreload](https://github.com/akiyamasho/golang-vscode-hotreload-debug/assets/35907066/8fe87e12-1c8f-40dd-aba1-2ee4e99f378a)
 
 1. Run `air` in the root directory of the project to run the app
     ```bash
